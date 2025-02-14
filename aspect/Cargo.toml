@@ -10,7 +10,7 @@ description = """
 An Aspect Toolkit for Rust
 """
 categories = ["rust-patterns", "data-structures", "config", "algorithms"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 aspect-weave = { path = "../aspect-weave", version = "0.3.0" }

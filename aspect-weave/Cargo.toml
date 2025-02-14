@@ -10,11 +10,11 @@ description = """
 An Aspect Toolkit for Rust
 """
 categories = ["rust-patterns", "data-structures", "config", "algorithms"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-syn = {version= "2.0", features = ["full"] }
+syn = { version = "2.0", features = ["full"] }
 quote = "1.0"
 proc-macro2 = "1.0"
-indexmap = "2.1"
-synattra = {  path = "../../synattra", version = "0.3.0" }
+indexmap = "2.7"
+synattra = { git = "https://github.com/magnet/synattra", version = "0.3.0" }
